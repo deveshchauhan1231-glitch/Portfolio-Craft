@@ -384,8 +384,6 @@ function contactHref(key, value) {
 function getLogoFile() {
   // Return the logo.png file content - in a real implementation, you'd read this from disk
   // For now, return a placeholder or read from the client directory
-  const fs = require('fs');
-  const path = require('path');
   try {
     return fs.readFileSync(path.join(process.cwd(), 'client', 'logo.png'));
   } catch (error) {
