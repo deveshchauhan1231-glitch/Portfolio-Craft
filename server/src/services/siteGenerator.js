@@ -1,4 +1,6 @@
 import AdmZip from 'adm-zip';
+import fs from 'fs';
+import path from 'path';
 
 const presets = {
   Minimalist: { mode: 'light', bg: '#f5f7fb', surface: '#ffffff', muted: '#edf3ff', line: '#d8deea', ink: '#111827' },
